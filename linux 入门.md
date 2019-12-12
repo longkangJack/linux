@@ -1,4 +1,4 @@
-## linux 入门
+## linux 命令1
 
 ls   -a：详细显示
 
@@ -102,9 +102,63 @@ shutdown -r
 
 shut -t +秒数
 
+rmdir :只能删除空目录
 
+rm -r:删除目录(递归目录)  -f ：免确认
 
+cp:copy
 
+mv:重命名文件
+
+linux中用户的分类
+
+所有者u 同组用户g 其他人o
+
+文件权限
+
+读 r 写 w 执行 x 没有权限 -
+
+-：普通文件
+
+d：目录文件
+
+l：链接文件
+
+p：管道文件
+
+c:字符设备文件
+
+s：套接口文件
+
+chmod:改变权限
+
+   u-r 表示所有者失去读的权限 ,a+rwx 所有人加权限
+
+ls -al :显示到权限
+
+两个大于号表示追加
+
+chown:修改文件的拥有者
+
+file:查看类型
+
+八进制修改权限：7 5 5 rwx  r-x r-x
+
+root:root 两个都变 用chown
+
+粘滞位对特定目录进行设置
+
+dev 目录的所有者 第二个dev 文件的所有者
+
+验证网络畅通
+
+ping . www.baidu.com
+
+yum list | grep .... :罗列软件,查找某个软件
+
+sudo yum install  +名字
+
+sudo yum remov +名字
 
 
 
