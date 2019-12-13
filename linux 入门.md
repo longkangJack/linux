@@ -160,9 +160,28 @@ sudo yum install  +名字
 
 sudo yum remov +名字
 
+yum clean all 命令可以清除缓存中老旧的头文件和软件包
 
+uname -r 输出linux内核的版本信息
 
+mkdir没有-d和-f选项； 
 
+  -m设置用户权限 
+
+  -p若果路径中某些目录不存在，系统会自动创建，通常是创建父目录 
+
+grep -E ^a try_grep
+
+查看该文件中存在a内容和的部分
+
+top命令查看cpu
+
+```css
+rm *.c
+find . -name "*.c" -maxdepth 1 | xargs rm
+```
+
+由于题目中是说删除当前目录下后缀名为.c的文件，故需要加上-maxdepth 1，表示是当前目录，不包括其子目录
 
 
 
