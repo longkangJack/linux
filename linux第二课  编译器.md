@@ -84,5 +84,19 @@ w 不生成任何警告信息。
 
 Wall 生成所有警告信息。
 
+vim(命令模式 插入模式 底行模式 替换模式)配置
 
+gcc g++:
+
+动态链接（defalut）/-g，静态链接 -static
+
+gdb:-g,list/l/b/ingo b/r/n/s/c/finish
+
+make/makefile:make是一个命令，makefile是一个文件
+
+.PHONY是伪目标
+
+项目生成+项目清理
+
+进度条：\r和\n 缓冲区概念 ,fflush(stdout)
 
